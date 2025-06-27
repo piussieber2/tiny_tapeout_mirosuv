@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This design is a simple and gate to test how chip design works.
+This design includes a simple and-gate as well as an xor-gate to test how chip design works.
 
 ## How to test
 
@@ -17,4 +17,4 @@ The design can be tested whit the first two switches of the test board. The outp
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware needed.
