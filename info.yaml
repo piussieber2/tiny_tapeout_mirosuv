@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     434921821909078017       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "and gate"      # Project title
+  title:        "xor and and-gate"      # Project title
   author:       "mirosuv"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "a simple and gate"      # One line description of what your project does
+  description:  "a simple and-gate and a xor-gate"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,10 +16,10 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "and gate input pin a"
-  ui[1]: "and gate input pin b"
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: "input pin a"
+  ui[1]: "input pin b"
+  ui[2]: "inverter 1 input"
+  ui[3]: "inverter 2 input"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
@@ -27,9 +27,9 @@ pinout:
 
   # Outputs
   uo[0]: "and gate output"
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[1]: "xor gat output"
+  uo[2]: "inverter 1 output"
+  uo[3]: "inverter 2 output"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
