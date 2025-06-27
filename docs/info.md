@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This design is a simple and gate to test how chip design works.
 
 ## How to test
 
-Explain how to use your project
+The design can be tested whit the first two switches of the test board. The output is visible on the 7-segment display.
 
 ## External hardware
 
